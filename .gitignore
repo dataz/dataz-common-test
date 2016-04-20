@@ -1,0 +1,14 @@
+*~
+*.class
+target/
+build/
+temp/
+
+
+.gradle/
+
+# IDEA files #
+*.iml
+*.ipr
+*.iws
+
