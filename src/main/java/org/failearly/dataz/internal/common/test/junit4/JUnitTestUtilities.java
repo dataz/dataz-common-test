@@ -17,7 +17,7 @@ import org.junit.runner.Request;
 import org.junit.runner.Result;
 
 /**
- * org.failearly.dataz.internal.common.test.junit4.JUnitTestUtilities is responsible for ...
+ * JUnitTestUtilities runs a JUnit4 single test method of a test class.
  */
 public class JUnitTestUtilities {
 
