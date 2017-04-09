@@ -10,14 +10,14 @@
  * http://www.eclipse.org/legal/epl-v10.html
  */
 
-package org.failearly.common.test.threadsafety;
+package org.failearly.dataz.internal.common.test.threadsafety;
 
 import java.util.*;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Future;
 import java.util.function.Supplier;
 
-import static org.failearly.common.test.threadsafety.BlockResult.*;
+import static org.failearly.dataz.internal.common.test.threadsafety.BlockResult.*;
 
 /**
  * Description see {@link ThreadSafetyVerifier#given(Supplier)}.

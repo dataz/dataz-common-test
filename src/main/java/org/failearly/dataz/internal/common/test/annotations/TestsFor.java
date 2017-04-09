@@ -10,7 +10,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  */
 
-package org.failearly.common.test.annotations;
+package org.failearly.dataz.internal.common.test.annotations;
 
 import java.lang.annotation.*;
 

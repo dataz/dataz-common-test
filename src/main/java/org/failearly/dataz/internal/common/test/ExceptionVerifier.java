@@ -10,7 +10,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  */
 
-package org.failearly.common.test;
+package org.failearly.dataz.internal.common.test;
 
 import org.hamcrest.Matcher;
 import org.slf4j.Logger;

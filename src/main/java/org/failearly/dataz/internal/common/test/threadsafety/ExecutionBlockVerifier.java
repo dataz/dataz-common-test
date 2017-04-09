@@ -10,7 +10,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  */
 
-package org.failearly.common.test.threadsafety;
+package org.failearly.dataz.internal.common.test.threadsafety;
 
 import java.util.*;
 import java.util.concurrent.CountDownLatch;
@@ -21,8 +21,8 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static org.failearly.common.test.threadsafety.BlockResult.caughtUnexpectedException;
-import static org.failearly.common.test.threadsafety.BlockResult.ok;
+import static org.failearly.dataz.internal.common.test.threadsafety.BlockResult.caughtUnexpectedException;
+import static org.failearly.dataz.internal.common.test.threadsafety.BlockResult.ok;
 import static org.junit.Assert.fail;
 
 /**
