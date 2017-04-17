@@ -10,7 +10,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  */
 
-package org.failearly.dataz.internal.common.test.utils;
+package org.failearly.dataz.common.test.utils;
 
 import java.lang.reflect.Method;
 

@@ -10,10 +10,10 @@
  * http://www.eclipse.org/legal/epl-v10.html
  */
 
-package org.failearly.dataz.internal.common.test.threadsafety;
+package org.failearly.dataz.common.test.threadsafety;
 
-import org.failearly.dataz.internal.common.test.ExceptionVerifier;
-import org.failearly.dataz.internal.common.test.annotations.TestsFor;
+import org.failearly.dataz.common.test.ExceptionVerifier;
+import org.failearly.dataz.common.test.annotations.TestsFor;
 import org.hamcrest.Matchers;
 import org.junit.Test;
 

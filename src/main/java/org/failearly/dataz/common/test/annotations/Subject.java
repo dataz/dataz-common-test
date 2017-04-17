@@ -10,24 +10,20 @@
  * http://www.eclipse.org/legal/epl-v10.html
  */
 
-package org.failearly.dataz.internal.common.test.annotations;
+package org.failearly.dataz.common.test.annotations;
 
 import java.lang.annotation.*;
 
 /**
- * Adds information to the test class, which are the classes under test.
+ * The subject(s) under test (SUT).
  *
  * Just for documentation purposes, not stored or available during runtime.
  *
- * @see Subject
+ * @see TestsFor
  */
 @Target({ElementType.TYPE,ElementType.METHOD,ElementType.FIELD,ElementType.LOCAL_VARIABLE})
 @Retention(RetentionPolicy.SOURCE)
 @Documented
-public @interface TestsFor {
+public @interface Subject {
     Class<?>[] value() default {};
-
-    Class<?>[] classes() default {};
-
-    String[] methods() default {};
 }

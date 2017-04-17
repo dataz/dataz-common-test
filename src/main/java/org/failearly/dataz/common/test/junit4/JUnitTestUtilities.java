@@ -10,7 +10,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  */
 
-package org.failearly.dataz.internal.common.test.junit4;
+package org.failearly.dataz.common.test.junit4;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Request;

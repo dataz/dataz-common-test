@@ -10,7 +10,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  */
 
-package org.failearly.dataz.internal.common.test.threadsafety;
+package org.failearly.dataz.common.test.threadsafety;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
