@@ -17,7 +17,7 @@ import org.junit.runner.Request;
 import org.junit.runner.Result;
 
 /**
- * JUnitTestUtilities runs a JUnit4 single test method of a test class.
+ * JUnit4TestUtilities runs a JUnit4 single test method of a test class.
  */
 public class JUnit4TestUtilities {
 
