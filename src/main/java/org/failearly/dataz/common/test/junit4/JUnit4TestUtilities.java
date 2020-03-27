@@ -19,7 +19,7 @@ import org.junit.runner.Result;
 /**
  * JUnitTestUtilities runs a JUnit4 single test method of a test class.
  */
-public class JUnitTestUtilities {
+public class JUnit4TestUtilities {
 
     public static Result runTestMethod(Class<?> testClass, String testMethod) {
         final JUnitCore junit = new JUnitCore();
